@@ -12,5 +12,8 @@
     &lt;TestId&gt;xUnit::C04B1F0B-5298-4FEE-957C-994B4E158081::net6.0::TLM.Books.IntegrationTests.Scenarios.Books.BookTests.UpdateBook_ValidData_ShouldBeSuccess&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::C04B1F0B-5298-4FEE-957C-994B4E158081::net6.0::TLM.Books.IntegrationTests.Scenarios.Books.BookTests.DeleteBook_ValidData_ShouldBeSuccess&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::C04B1F0B-5298-4FEE-957C-994B4E158081::net6.0::TLM.Books.IntegrationTests.Scenarios.Books.BookTests.SearchBook_ValidData_ShouldBeSuccess&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C04B1F0B-5298-4FEE-957C-994B4E158081::net6.0::TLM.Books.IntegrationTests.Scenarios.Users.UserTests.AddUser_ValidData_ShouldBeSuccess&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C04B1F0B-5298-4FEE-957C-994B4E158081::net6.0::TLM.Books.IntegrationTests.Scenarios.Users.UserTests.UpdateUser_ValidData_ShouldBeSuccess&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C04B1F0B-5298-4FEE-957C-994B4E158081::net6.0::TLM.Books.IntegrationTests.Scenarios.Users.UserTests.User_AddReadBookList_ShouldBeSuccess&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
