@@ -3,4 +3,14 @@
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::C04B1F0B-5298-4FEE-957C-994B4E158081::net6.0::TLM.Books.IntegrationTests.Scenarios.Users.UserTests.QueryUser_GetAllUsers_ShouldBeSuccess&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=de92d946_002D806c_002D4bc4_002D872a_002D60f121f20b68/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetUsers_ValidData_ShouldBeSuccess" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::C04B1F0B-5298-4FEE-957C-994B4E158081::net6.0::TLM.Books.IntegrationTests.Scenarios.Books.BookTests.QueryBook_GetAllBooks_ShouldBeSuccess&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C04B1F0B-5298-4FEE-957C-994B4E158081::net6.0::TLM.Books.IntegrationTests.Scenarios.Users.UserTests.QueryUser_GetAllUsers_ShouldBeSuccess&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C04B1F0B-5298-4FEE-957C-994B4E158081::net6.0::TLM.Books.IntegrationTests.Scenarios.Books.BookTests.CreateBook_ValidData_ShouldBeSuccess&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C04B1F0B-5298-4FEE-957C-994B4E158081::net6.0::TLM.Books.IntegrationTests.Scenarios.Books.BookTests.UpdateBook_ValidData_ShouldBeSuccess&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C04B1F0B-5298-4FEE-957C-994B4E158081::net6.0::TLM.Books.IntegrationTests.Scenarios.Books.BookTests.DeleteBook_ValidData_ShouldBeSuccess&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C04B1F0B-5298-4FEE-957C-994B4E158081::net6.0::TLM.Books.IntegrationTests.Scenarios.Books.BookTests.SearchBook_ValidData_ShouldBeSuccess&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -17,6 +17,7 @@ public abstract class BaseWebApplicationFactory : WebApplicationFactory<Program>
 {
     public IEnumerable<User> Users { get; protected set; }
     
+    public IEnumerable<Book> Books { get; protected set; }
     public abstract string TestDataFolderPath { get; }
     
     
@@ -51,11 +52,8 @@ public abstract class BaseWebApplicationFactory : WebApplicationFactory<Program>
 
     protected virtual void SeedData(BookDbContext context)
     {
-        SeedUsers(context);
+        
     }
     
-    protected void SeedUsers(BookDbContext context)
-    {
-    }
     
 }

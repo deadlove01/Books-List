@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc.Testing;
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestPlatform.TestHost;
 using TLM.Books.Application.Models;
+using TLM.Books.Common.Error;
 using TLM.Books.IntegrationTests.Configurations;
 using Xunit;
 
@@ -27,8 +28,10 @@ public class UserTests
         var response = await client.GetAsync("/api/users");
         
         Assert.Equal(HttpStatusCode.OK, response.StatusCode);
-        var userViews = await response.GetContentAsync<IEnumerable<UserView>>();
-        Assert.NotNull(userViews);
-        Assert.NotEmpty(userViews);
+        var result = await response.GetContentAsync<MethodResult<IEnumerable<UserView>>>();
+        Assert.NotNull(result);
+        Assert.True(result.IsOK);
+        Assert.NotNull(result.Result);
+        Assert.NotEmpty(result.Result);
     }
 }

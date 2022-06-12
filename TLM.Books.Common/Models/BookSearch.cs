@@ -7,7 +7,7 @@ namespace TLM.Books.Common.Models;
 
 public class BookSearch : IQueryPaging, IQuerySort
 {
-    [QueryOperator(Operator = WhereOperator.Contains, HasName = "Name")]
+    [QueryOperator(Operator = WhereOperator.Contains, HasName = "Name", CaseSensitive = false)]
     public string Name { get; set; }
 
     

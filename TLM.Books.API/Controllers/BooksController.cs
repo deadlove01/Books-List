@@ -65,7 +65,7 @@ public class BooksController: BaseApiController
     [HttpGet("search")]
     [ProducesResponseType(typeof(MethodResult<IEnumerable<BookView>>), (int)HttpStatusCode.OK)]
     [ProducesResponseType(typeof(VoidMethodResult), (int)HttpStatusCode.BadRequest)]
-    public async Task<IActionResult> GetById(string name)
+    public async Task<IActionResult> Search(string name)
     {
         try
         {
